@@ -31,7 +31,7 @@ function TopArticles() {
             const { title, content, page } = item;
             return (
               <Link to={`/article/${page}`} key={index}>
-                <div className="article w-full max-w-[500px] h-auto px-5 py-5 tablet:w-[280px] iPad:w-[220px] iPad2:w-[240px] laptop:w-[290px] laptop2:w-[325px] desktop:w-[370px] tablet:h-[200px] iPad:h-[265px] iPad2:h-[250px] laptop:h-[220px] laptop2:h-[200px] desktop:h-[180px] border border-[#727374] rounded-lg">
+                <div className="article w-full max-w-[500px] h-auto px-5 py-5 tablet:w-[280px] iPad:w-[220px] iPad2:w-[240px] laptop:w-[290px] laptop2:w-[325px] desktop:w-[370px] tablet:h-[200px] iPad:h-[265px] iPad2:h-[250px] laptop:h-[220px] laptop2:h-[200px] desktop:h-[180px] border border-[#303032] hover:border-[#727374] rounded-lg">
                   <h4 className="text-[#9E77F3] text-[15px] font-bold mb-[10px]">
                     {title}
                   </h4>

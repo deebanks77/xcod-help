@@ -35,7 +35,7 @@ function OurProducts() {
 
       <div className="w-[90%] max-w-[1200px] h-[5px] mx-auto border border-transparent rounded-md ipadMini:flex items-center justify-center gap-3 bg-gray-400 mt-8">
         <div className={`ipadMini:w-[32%] h-full `}></div>
-        <div className={`ipadMini:w-[32%] h-full bg-[#308CE3]`}></div>
+        <div className={`ipadMini:w-[32%] h-full bg-[#0B2F8F]`}></div>
         <div className={`ipadMini:w-[32%] h-full`}></div>
       </div>
     </section>
