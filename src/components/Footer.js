@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import xcodLogo from "../images/xcodLogos/xcodLogo.png";
 import {
   FaTwitter,
@@ -8,6 +8,8 @@ import {
 } from "react-icons/fa";
 
 function Footer() {
+  const [email, setEmail] = useState("");
+
   return (
     <section className="max-w-sectionWidth w-full text-[#E8E8E9] mt-20 flex items-center justify-center border-t border-t-[#909090]  p-5 tablet:p-10">
       <div className="w-full max-w-[1200px] flex flex-wrap justify-between items-start gap-8 mx-auto">
@@ -76,8 +78,10 @@ function Footer() {
             <input
               type="email"
               placeholder="Your email address"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
               required
-              className="w-[190px] laptop2:w-[268px] h-full px-3 outline-none"
+              className="w-[190px] laptop2:w-[268px] h-full px-3 outline-none text-black"
             />
             <button className="laptop2:w-[167px] p-1 h-full bg-[#4361EE] text-white text-[16px] laptop2:text-[18px] font-[poppins] border-none ">
               Subscribe
