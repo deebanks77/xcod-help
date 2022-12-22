@@ -6,7 +6,7 @@ import { useGlobalContext } from "../useContext/globalContext";
 
 function OurProducts() {
   const { articles, setArticles } = useGlobalContext();
-  console.log(articles);
+  // console.log(articles);
 
   return (
     <section className="max-w-sectionWidth w-full text-white mt-10">
@@ -49,7 +49,7 @@ function OurProducts() {
         </div>
       </div>
 
-      <div className="w-[90%] max-w-[1200px] h-[5px] mx-auto border border-transparent rounded-md ipadMini:flex items-center justify-center gap-3 bg-gray-400 mt-8">
+      <div className="w-[90%] max-w-[1200px] h-[5px] mx-auto border border-transparent rounded-md hidden ipadMini:flex items-center justify-center gap-3 bg-gray-400 mt-8">
         <div
           className={`ipadMini:w-[32%] h-full ${
             articles === "logoVerseArticles" && "bg-[#0B2F8F]"
