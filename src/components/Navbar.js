@@ -122,7 +122,7 @@ function Navbar() {
               onClick={handleClose}
               className="button px-5 py-[5px] bg-[#9E77F3] hover:bg-[#1DABEA] w-[150px] text-[16px] tablet:text-[18px] border border-transparent cursor-pointer rounded-lg transition duration-500 ease-in-out"
             >
-              create a stori
+              What's Next!
             </button>
           </a>
         </div>

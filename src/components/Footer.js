@@ -84,7 +84,7 @@ function Footer() {
             </button>
           </form>
 
-          <p className="max-w-[300px] laptop:max-w-[366px] font-[inter] font-[400] font-[17px] leading-[31px] -tracking-[0.02em]">
+          <p className="max-w-[300px] laptop:max-w-[366px] font-[inter] font-[400] leading-[31px] -tracking-[0.02em]">
             * Will send you weekly updates for your better finance management.
           </p>
         </div>
